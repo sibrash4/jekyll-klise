@@ -21,7 +21,7 @@ author:
   avatar: /assets/img/avatar.png # change with your own avatar
 
 # URL settings
-url: "https://sibrahim.io" #
+url: "http://sibrahim.io" #
 baseurl:
 permalink: /:title/
 google_analytics: # leave it blank if not wish
@@ -58,7 +58,7 @@ jekyll_compose:
     description:
 
 # Homepage limit posts
-number_of_posts: 2
+number_of_posts: 1
 
 # Build settings
 # theme: klise

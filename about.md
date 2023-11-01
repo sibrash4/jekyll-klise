@@ -7,8 +7,6 @@ comments: false
 ---
 Hey! this is Shaukat
 
-
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
 **may u needs ✨**
 
 - {{ site.author.email }}
