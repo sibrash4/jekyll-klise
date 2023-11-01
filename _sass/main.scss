@@ -58,6 +58,22 @@ $on-widescreen: 1152px;
   font-size: $base-font-size * $ratio;
 }
 
+// Modified .footer-main class
+.footer-main {
+  border-top: 1px solid $light;
+  padding: $spacing-full 0;
+  margin: 0;
+  font-size: $medium-font-size;
+  color: $text-base-color;
+  font-weight: $normal-weight;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  // ... your existing additional styles
+}
+
+
 // Import sass files
 @import "klise/fonts", "klise/base", "klise/layout", "klise/post",
   "klise/miscellaneous", "klise/syntax", "klise/dark";
