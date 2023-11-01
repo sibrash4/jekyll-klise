@@ -1,6 +1,6 @@
 # Site settings
 title: Shaukat Ibrahim # site title
-description: >- # site description
+description: Shaukat`s personal site>- # site description
 lang: en-US # default lang
 timezone: Americas/New York # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
@@ -15,7 +15,7 @@ author:
     meet Klisé theme at <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.
   username: sibrash4 # general username
   github: sibrash4 # github username
-  twitter: twitter_username # twitter username
+  #twitter: twitter_username # twitter username
   facebook: shaukatibra # facebook username
   email: contactme@sibrahim.co # email adress
   avatar: /assets/img/avatar.png # change with your own avatar
@@ -58,7 +58,7 @@ jekyll_compose:
     description:
 
 # Homepage limit posts
-number_of_posts: 5
+number_of_posts: 2
 
 # Build settings
 # theme: klise
