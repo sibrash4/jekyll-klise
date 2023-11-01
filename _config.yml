@@ -65,6 +65,14 @@ number_of_posts: 1
 sass:
   style: compressed
 
+facebook: ShaukatIbra
+#twitter: mytwitter
+instagram: shaukat.ibrahim
+linkedin: shaukatibrahim
+github: sibrash4
+email: contactme@sibrahim.co
+
+
 include:
   - _redirects
   - .htaccess
