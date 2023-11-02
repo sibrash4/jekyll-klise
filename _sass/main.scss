@@ -58,20 +58,40 @@ $on-widescreen: 1152px;
   font-size: $base-font-size * $ratio;
 }
 
-// Modified .footer-main class
-.footer-main {
-  border-top: 1px solid $light;
-  padding: $spacing-full 0;
-  margin: 0;
-  font-size: $medium-font-size;
-  color: $text-base-color;
-  font-weight: $normal-weight;
-  text-align: center;
+/* Footer */
+.footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  // ... your existing additional styles
+  text-align: center;
+
+  @include media-query($on-mobile) {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  span.footer_item {
+    color: $black;
+    opacity: 0.8;
+    font-weight: $bold-weight;
+    font-size: $small-font-size;
+  }
+  
+  a.footer_item {
+    color: $black;
+    opacity: 0.8;
+    text-decoration: none;
+
+    &:not(:last-child) {
+      margin-right: 10px;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
 }
+
 
 
 // Import sass files

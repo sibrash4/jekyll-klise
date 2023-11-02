@@ -10,7 +10,7 @@
   url: /about/
   external: false # set true if you using external link, see below
 
-- title: Let's Chat!
+- title: let's chat!
   url: https://cal.com/sibrahim
   external: true # set true if you using external link, see below
 
